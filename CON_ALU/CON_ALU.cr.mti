@@ -1,0 +1,15 @@
+{D:/CSE/CSE/TERM2/Logic Design/Dr Azza Project/ALUs/CON_ALU/CON_ALU.v} {1 {vlog -work work -vopt -stats=none {D:/CSE/CSE/TERM2/Logic Design/Dr Azza Project/ALUs/CON_ALU/CON_ALU.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module CON_ALU
+
+Top level modules:
+	CON_ALU
+
+} {} {}} {D:/CSE/CSE/TERM2/Logic Design/Dr Azza Project/ALUs/CON_ALU/TB_CON_ALU.v} {1 {vlog -work work -vopt -stats=none {D:/CSE/CSE/TERM2/Logic Design/Dr Azza Project/ALUs/CON_ALU/TB_CON_ALU.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module TB_CON_ALU
+
+Top level modules:
+	TB_CON_ALU
+
+} {} {}}

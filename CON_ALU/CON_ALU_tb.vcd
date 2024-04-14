@@ -1,0 +1,388 @@
+$date
+	Sun Apr 14 03:04:29 2024
+$end
+$version
+	ModelSim Version 10.6d
+$end
+$timescale
+	1ps
+$end
+
+$scope module CON_ALU_tb $end
+$var reg 8 ! A [7:0] $end
+$var reg 8 " B [7:0] $end
+$var reg 4 # SELC [3:0] $end
+$var wire 1 $ ALU_OUT [7] $end
+$var wire 1 % ALU_OUT [6] $end
+$var wire 1 & ALU_OUT [5] $end
+$var wire 1 ' ALU_OUT [4] $end
+$var wire 1 ( ALU_OUT [3] $end
+$var wire 1 ) ALU_OUT [2] $end
+$var wire 1 * ALU_OUT [1] $end
+$var wire 1 + ALU_OUT [0] $end
+$var wire 1 , CF $end
+$var wire 1 - ZF $end
+$var wire 1 . SF $end
+
+$scope module uut $end
+$var wire 1 / A [7] $end
+$var wire 1 0 A [6] $end
+$var wire 1 1 A [5] $end
+$var wire 1 2 A [4] $end
+$var wire 1 3 A [3] $end
+$var wire 1 4 A [2] $end
+$var wire 1 5 A [1] $end
+$var wire 1 6 A [0] $end
+$var wire 1 7 B [7] $end
+$var wire 1 8 B [6] $end
+$var wire 1 9 B [5] $end
+$var wire 1 : B [4] $end
+$var wire 1 ; B [3] $end
+$var wire 1 < B [2] $end
+$var wire 1 = B [1] $end
+$var wire 1 > B [0] $end
+$var wire 1 ? SELC [3] $end
+$var wire 1 @ SELC [2] $end
+$var wire 1 A SELC [1] $end
+$var wire 1 B SELC [0] $end
+$var wire 1 $ ALU_OUT [7] $end
+$var wire 1 % ALU_OUT [6] $end
+$var wire 1 & ALU_OUT [5] $end
+$var wire 1 ' ALU_OUT [4] $end
+$var wire 1 ( ALU_OUT [3] $end
+$var wire 1 ) ALU_OUT [2] $end
+$var wire 1 * ALU_OUT [1] $end
+$var wire 1 + ALU_OUT [0] $end
+$var reg 1 C CF $end
+$var reg 1 D ZF $end
+$var reg 1 E SF $end
+$var wire 1 F t [8] $end
+$var wire 1 G t [7] $end
+$var wire 1 H t [6] $end
+$var wire 1 I t [5] $end
+$var wire 1 J t [4] $end
+$var wire 1 K t [3] $end
+$var wire 1 L t [2] $end
+$var wire 1 M t [1] $end
+$var wire 1 N t [0] $end
+$var reg 8 O RES [7:0] $end
+$var reg 1 P temp_CF $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10010 !
+b110100 "
+b0 #
+0C
+xD
+xE
+b1000110 O
+0P
+0+
+1*
+1)
+0(
+0'
+0&
+1%
+0$
+0,
+x-
+x.
+0N
+1M
+1L
+0K
+0J
+0I
+1H
+0G
+0F
+0B
+0A
+0@
+0?
+0>
+0=
+1<
+0;
+1:
+19
+08
+07
+06
+15
+04
+03
+12
+01
+00
+0/
+$end
+#10000
+b1111000 !
+b100011 "
+b1 #
+1B
+1>
+1=
+0<
+0:
+05
+13
+11
+10
+1N
+0L
+1K
+1J
+0H
+1G
+b1010101 O
+1+
+0*
+1'
+#20000
+b101 !
+b1010 "
+b10 #
+0B
+1A
+0>
+1;
+09
+16
+14
+03
+02
+01
+00
+1L
+0J
+0G
+b110010 O
+0+
+1*
+0)
+1&
+0%
+#30000
+b1010 !
+b10 "
+b11 #
+1B
+0;
+06
+15
+04
+13
+0N
+0M
+b101 O
+1+
+0*
+1)
+0'
+0&
+#40000
+b11110000 !
+b1 "
+b100 #
+0B
+0A
+1@
+1>
+0=
+05
+03
+12
+11
+10
+1/
+1N
+0L
+0K
+1J
+1I
+1H
+1G
+b11100000 O
+0+
+0)
+1&
+1%
+1$
+#50000
+b1111 !
+b101 #
+1B
+16
+15
+14
+13
+02
+01
+00
+0/
+0N
+0I
+0H
+0G
+b111 O
+1+
+1*
+1)
+0&
+0%
+0$
+#60000
+b11111111 !
+b110 #
+0B
+1A
+12
+11
+10
+1/
+0J
+1F
+1P
+b11111111 O
+1C
+1(
+1'
+1&
+1%
+1$
+1,
+#70000
+b111 #
+1B
+#80000
+b11110000 !
+b1111 "
+b1000 #
+0B
+0A
+0@
+1?
+1=
+1<
+1;
+06
+05
+04
+03
+1N
+1M
+1L
+1K
+1J
+1I
+1H
+1G
+0F
+0P
+b0 O
+0C
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0,
+#90000
+b1001 #
+1B
+b11111111 O
+1+
+1*
+1)
+1(
+1'
+1&
+1%
+1$
+#100000
+b1010 #
+0B
+1A
+#110000
+b1011 #
+1B
+b0 O
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+#120000
+b1100 #
+0B
+0A
+1@
+b11111111 O
+1+
+1*
+1)
+1(
+1'
+1&
+1%
+1$
+#130000
+b1101 #
+1B
+b0 O
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+#140000
+b1110 #
+0B
+1A
+b1 O
+1P
+0D
+0E
+1C
+1+
+0-
+0.
+1,
+#150000
+b11110000 "
+b1111 #
+1B
+0>
+0=
+0<
+0;
+1:
+19
+18
+17
+0N
+0M
+0L
+0K
+0J
+1F
+0P
+1D
+0C
+1-
+0,
